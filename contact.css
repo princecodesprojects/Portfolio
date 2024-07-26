@@ -1,0 +1,50 @@
+.contactform h2{
+    font-family: "Fira Sans Condensed", sans-serif;
+    /* text-align: center; */
+}
+
+.contactform{
+    font-family: "Source Code Pro", monospace;
+    padding-top: 120px;
+    padding: 120px 34px;
+}
+
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input,textarea{
+    width: 20vw;
+    padding: 5px;
+}
+
+#form-check{
+   flex-direction: row;
+}
+
+#form-check input{
+    width: 19px;
+    margin-right: 3px;
+}
+
+.btn{
+    padding: 8px;
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 3px;
+    cursor: pointer;
+    color: white;
+    background-color: #3498DB;
+}
+
+.btn:hover{
+    color: #3498DB;
+    background-color: #f1f3f5;
+}
+
+.btn-sm{
+    font-size: 14px;
+}
